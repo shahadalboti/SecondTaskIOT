@@ -16,8 +16,7 @@ This repository about the second task on the IOT track which is Control Arduino/
 
 ## Task2 :
 ## Task 2.1:
-A website that receive speech from the user then convert it into text which is allow you to move the robot arm in different direction.
-
+In this task we have to control the Arduino/ESP32 using speech to text website we have made in Task 1 To be able to control and communicate with the Arduino, we should use the serial port, and to use the serial port in a website we should use the Web Serial API
 
 [html](/home.html "html code")
 
