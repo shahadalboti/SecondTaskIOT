@@ -2,7 +2,7 @@
 # SecondTask
 
 #### Table of Contents  
-* [About](https://github.com/shahadalboti/FSecondTaskIOT#about-this-repository-)  
+* [About](https://github.com/shahadalboti/SecondTaskIOT#about-this-repository-)  
 * Task2:
   
    -[Task2.1: Moving the robot arm by speech using web serial API  ](https://github.com/shahadalboti/SecondTaskIOT#task2-) 
