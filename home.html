@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <body style="  background-image: linear-gradient(135deg, white, lightgreen, darkblue);">
+    <title>speech to text </title>
+    <style>
+        body {style=" background-image: linear-gradient(135deg, white, lightgreen, darkblue);"}
+        #convert_text{
+          margin-top: 12em;
+             margin-left: 5em;
+             width: 80em;
+             height: 15em;
+             border-radius: 10px;
+             text-align: right;
+             background-image: linear-gradient(135deg, white, lightgreen, darkblue);
+
+        }
+        #click_to_convert,
+        #start-btn{
+          width: 40em;
+              height: 3em;
+              margin-left: 25em;
+              border-radius: 10px;
+        }
+        #text{
+            text-align: center;
+              margin-left: -2em;
+        }
+    </style>
+  </head>
+
+  <body>
+      <h1 id="text">تحريك ذراع الروبوت  </h1>
+        <textarea id="convert_text"></textarea>
+        <button id="start-btn">  بدء </button> <br><br>
+        <button onclick="onConnectUsb()" id="click_to_convert">  ربط </button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="arduino.js"></script>
+    <script></script>
+  </body>
+
+</html>
